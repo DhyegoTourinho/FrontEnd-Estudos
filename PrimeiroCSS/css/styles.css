@@ -72,3 +72,18 @@ h2 {
     background-color: rgba(184, 65, 188, 0.3);
     color: #000;
 }
+.bg-image {
+    background-image: url("../img/TripulaçãoRo.jpg");
+}
+
+.not-centered-bg, 
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/Law.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}

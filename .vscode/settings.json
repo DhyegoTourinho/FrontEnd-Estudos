@@ -1,0 +1,10 @@
+{
+    "editor.autoIndent": "full",
+    "files.autoSave": "onWindowChange",
+    "html.autoClosingTags": false,
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    }
+}

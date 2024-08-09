@@ -1,0 +1,27 @@
+.div-box-model {
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    margin: 15px;
+    border: 7px solid gray;
+    border-radius: 10px ;
+    padding: 10px 15px;
+    outline: 10px solid blueviolet;
+}
+
+#title-box-model {
+    font-size: 60px;
+    color: brown;
+    margin: 5px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.text-box-model {
+    background-color: rgb(228, 228, 161);
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 40px;
+    color: rgb(207, 142, 13);
+    padding: 10px;
+}

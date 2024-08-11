@@ -1,0 +1,9 @@
+
+div {
+    margin: 10px;
+    display: block;
+}
+
+.radio input, span, label{
+    display: inline-block;
+}

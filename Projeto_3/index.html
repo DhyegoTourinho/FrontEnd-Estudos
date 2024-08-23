@@ -10,6 +10,8 @@
         integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' 
         crossorigin='anonymous'
     />
+
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -65,6 +67,7 @@
                     </li>
                 </ul>
             </section>
+
             <section class="game-catalog-container">
                 <h2>Prices and subscripton</h2>
                 <p>Select your plan</p>
@@ -91,14 +94,14 @@
                         <ul>
                             <li class="price">$15/month</li>
                             <li class="plan-name">Premium</li>
-                            <li>Access to 5 games</li>
-                            <li>Account not shareable</li>
+                            <li class="plan-info">Access to 5 games</li>
+                            <li class="plan-info">Account not shareable</li>
                             <li class="plan-btn">Buy now</li>
                         </ul>
                     </div>
                     <div class="plan">
                         <div class="fas fa-fire"></div>
-                        <ul>
+                        <ul class="teste">
                             <li class="price recommended">$20/month</li>
                             <li class="plan-name">Master</li>
                             <li>Access to 8 games</li>
@@ -117,6 +120,69 @@
                         </ul>
                     </div>
                 </div>
+                </section>
+                <section class="search-game-container">
+                    <h2>Available games</h2>
+                    <form>
+                        <input
+                        type="text"
+                        name="game"
+                        id="search"
+                        placeholder="Search"
+                        >
+                        <input type="submit" value="Search">
+                    </form>
+                </section>
+                <section class="game-list">
+                    <div class="game">
+                        <ul class="info">
+                            <li class="img" style="background-image: url('https://assets.xboxservices.com/assets/36/b5/36b52fa8-e71b-4435-888a-cecb98d3876a.jpg?n=153142244433_GLP-Page-Hero-0_1083x1222_02.jpg');"></li>
+                            <li class="name">Valorant</li>
+                            <li class="price">Free</li>
+                        </ul>
+                    </div>
+                    <div class="game">
+                        <ul class="info">
+                            <li class="img" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXJDGSKK24lnkCWXJr8V_LcxfODFRE8NEkg&s')"></li>
+                            <li class="name">Pokemon GO</li>
+                            <li class="price">Free</li>
+                        </ul>
+                    </div>
+                    <div class="game">
+                        <ul class="info">
+                            <li class="img" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaCAyenR6PoA0k9tct_KZE6gYsFfOQR48ZdA&s');"></li>
+                            <li class="name">Naruto Storm 4</li>
+                            <li class="price">$60</li>
+                        </ul>
+                    </div>
+                    <div class="game">
+                        <ul class="info">
+                            <li class="img" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRaYb7CBT1-nG8y3RkcCJhHxLC75_t_GAigQ&s');"></li>
+                            <li class="name">Rocket league</li>
+                            <li class="price">Free</li>
+                        </ul>
+                    </div>
+                    <div class="game">
+                        <ul class="info">
+                            <li class="img" style="background-image: url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/capsule_616x353.jpg?t=1719480904');"></li>
+                            <li class="name">Palword</li>
+                            <li class="price">$40</li>
+                        </ul>
+                    </div>
+                    <div class="game">
+                        <ul class="info">
+                            <li class="img" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6DKnP8m8EHbfT7f5L6ixqAvHiHQxxhFtkZg&s');"></li>
+                            <li class="name">Minecrat</li>
+                            <li class="price">$30</li>
+                        </ul>
+                    </div>
+                    <div class="game">
+                        <ul class="info">
+                            <li class="img" style="background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202009/0123/bF1qmEL5RM6aMfL0oLcxRe8B.png');"></li>
+                            <li class="name">Mortal Kombat 11</li>
+                            <li class="price">$60</li>
+                        </ul>
+                    </div>
                 </section>
         </main>
     </div>

@@ -1,0 +1,16 @@
+.flex{
+    display: flex;
+}
+.flex-direction {
+    display: flex;
+    flex-direction: column;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.justify-content {
+    display: flex;
+    margin-bottom: 20px;
+}

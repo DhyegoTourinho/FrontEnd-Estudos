@@ -19,7 +19,6 @@ const ListRender = () => {
                 <li key={user.id}>
                     {user.name} - {user.age} anos
                 </li>
-                
             ))}
         </ul>
     </div>;

@@ -19,8 +19,8 @@ const Events = () => {
     
     return (
         <div>
-        <button onClick={SomeComTitulo}>Remover titulo</button>
-        <button onClick={MostraTitulo}>Mostrar Titulo</button>
+            <button onClick={SomeComTitulo}>Remover titulo</button>
+            <button onClick={MostraTitulo}>Mostrar Titulo</button>
         <div>
             {renderCoisas(true)}
             {renderCoisas(false)}

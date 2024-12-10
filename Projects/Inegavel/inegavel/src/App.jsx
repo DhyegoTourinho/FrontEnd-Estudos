@@ -1,6 +1,5 @@
 import './App.css'
-import ConfirmButton from './components/ConfirmButton'
-import DeclineButton from './components/DeclineButton'
+import Buttons from './components/Buttons.jsx'
 import Title from './components/Title'
 
 function App() {
@@ -8,8 +7,7 @@ function App() {
     <div className='App'>
       <Title/>
       <div class="buttons-container">
-        <ConfirmButton/>
-        <DeclineButton/>
+        <Buttons/>
       </div>
     </div>
   )

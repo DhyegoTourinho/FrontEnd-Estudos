@@ -40,22 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-.buttons-container {
-  display: inline-flex;
-}
-.buttons-container button{
-  margin: 10px;
-  margin-left: 70px;
-  margin-right: 70px;
-  padding: 10px;
-}
-
-.btn {
-  background-color: #85149c;
-  border:solid #711085 3px ;
-  border-radius: 100px;
-  transition: 0.2s;
-}
-.buttons-container{
-  display: inline-block;
-}

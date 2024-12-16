@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "5",
+      "name": "capa de chuva",
+      "price": "50.50"
+    },
+    {
+      "id": "6",
+      "name": "Sabonete",
+      "price": "2.50"
+    },
+    {
+      "id": "7",
+      "name": "Quadro",
+      "price": "20"
+    },
+    {
+      "id": "8",
+      "name": "Tomate",
+      "price": "5.99"
+    },
+    {
+      "id": "9",
+      "name": "Laranja",
+      "price": "8.99"
+    },
+    {
+      "id": "5728",
+      "name": "Suco de laranja",
+      "price": "15"
+    },
+    {
+      "id": "9373",
+      "name": "Banana",
+      "price": "3.99"
+    },
+    {
+      "id": "44c4",
+      "name": "Uva",
+      "price": "4,29"
+    },
+    {
+      "id": "3e1c",
+      "name": "Abacate",
+      "price": "11"
+    }
+  ]
+}

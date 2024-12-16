@@ -11,7 +11,6 @@ const MyForm = () => {
     };
     
     const handlePositionTop = (e) => {
-        const 
         return Math.random() * (500); 
     };
   return (

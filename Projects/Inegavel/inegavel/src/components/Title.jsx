@@ -2,7 +2,7 @@ const Title = () => {
   return (
     <div>
         <h1>
-            Convite para maratona de Mount
+            icaro boiola
         </h1>
     </div>
   )

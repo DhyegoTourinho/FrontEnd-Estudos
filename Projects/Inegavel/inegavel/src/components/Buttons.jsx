@@ -7,17 +7,18 @@ const DeclineButton = () => {
     
     const RandomPosition = () => {
       size++;
-      setPosition({top:Math.random() * (Math.random() > 0.5 ? -400 : 400), left:Math.random() * (Math.random() > 0.5 ? -400 : 400), tam:0.1 * size + 1});
+      setPosition({top:Math.random() * (Math.random() > 0.5 ? -400 : 400), 
+                      left:Math.random() * (Math.random() > 0.5 ? -400 : 400), 
+                      tam:0.1 * size + 1});
     }
 
   return (
-    
     <div style={{display:"block"}} className="buttons-container">
       <button className="btn"
       style={{
         width:`${120 * position.tam}px`,
         height:`${70 * position.tam}px`,
-        fontSize:`${16 * position.tam}px`}}>Confirmar</button>
+        fontSize:`${16 * position.tam}px`}}>Sim</button>
       
       <button className="btn" 
       onMouseEnter={RandomPosition} 
@@ -27,7 +28,7 @@ const DeclineButton = () => {
         left: `${position.left}px`,
         width: `${120}px`,
         height: `${70}px`}}
-        id="Decline">Recusar</button>
+        id="Decline">Não</button>
     </div>
   )
 }
